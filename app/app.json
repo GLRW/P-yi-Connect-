@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Péyi Connect",
+    "slug": "peyi-connect",
+    "scheme": "peyiconnect",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "fr.peyiconnect.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "fr.peyiconnect.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Péyi Connect",
+      "themeColor": "#1f5c3a"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "baseUrl": "/P-yi-Connect-/app"
+    }
+  }
+}
